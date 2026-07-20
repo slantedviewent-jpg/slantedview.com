@@ -1,0 +1,22 @@
+{
+  "name": "Slanted View Media",
+  "short_name": "Slanted View",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030304",
+  "theme_color": "#030304",
+  "icons": [
+    {
+      "src": "sv-eye.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "The View Everyone\u2019s Missing. Entertainment from every angle.",
+  "categories": [
+    "entertainment",
+    "news",
+    "sports",
+    "lifestyle"
+  ]
+}

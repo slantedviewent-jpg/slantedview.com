@@ -1,0 +1,1188 @@
+{
+  "topics": [
+    "Katie Cakes",
+    "Chiefs",
+    "Hollywood",
+    "Concerts",
+    "Viral",
+    "News",
+    "Gaming",
+    "Culture"
+  ],
+  "trending": [
+    {
+      "title": "The Truth Behind the Internet\u2019s Sweetheart",
+      "category": "Culture",
+      "views": "125K",
+      "image": "influencer-exposed.jpg"
+    },
+    {
+      "title": "Is the Chiefs Dynasty Finally Over?",
+      "category": "Sports",
+      "views": "98K",
+      "image": "chiefs-dynasty.jpg"
+    },
+    {
+      "title": "What Happens When the Internet Moves On?",
+      "category": "Viral",
+      "views": "142K",
+      "image": "viral-over.jpg"
+    },
+    {
+      "title": "Things Got Out of Control Fast",
+      "category": "Entertainment",
+      "views": "91K",
+      "image": "concert-chaos.jpg"
+    },
+    {
+      "title": "What Hollywood Doesn\u2019t Want You to See",
+      "category": "Culture",
+      "views": "139K",
+      "image": "hollywood.jpg"
+    }
+  ],
+  "latest": [
+    {
+      "title": "They Don\u2019t Want You to Know This",
+      "duration": "12:45",
+      "date": "2 hours ago",
+      "image": "latest-one.jpg"
+    },
+    {
+      "title": "The Story Was Never That Simple",
+      "duration": "10:32",
+      "date": "1 day ago",
+      "image": "latest-two.jpg"
+    },
+    {
+      "title": "Speaking Up Will Get You Hated",
+      "duration": "8:17",
+      "date": "2 days ago",
+      "image": "latest-three.jpg"
+    },
+    {
+      "title": "What\u2019s Really Going On?",
+      "duration": "9:03",
+      "date": "3 days ago",
+      "image": "latest-four.jpg"
+    },
+    {
+      "title": "Unfiltered Ep. 27 \u2014 No More Silence",
+      "duration": "11:21",
+      "date": "4 days ago",
+      "image": "latest-five.jpg"
+    }
+  ],
+  "shorts": [
+    "Wake Up",
+    "Real Talk",
+    "No Filter",
+    "Culture",
+    "They Missed It",
+    "Viral",
+    "Sports",
+    "Watch This"
+  ],
+  "podcasts": [
+    {
+      "episode": "EP. 27",
+      "title": "No More Silence",
+      "length": "58:21"
+    },
+    {
+      "episode": "EP. 26",
+      "title": "Behind the Curtain",
+      "length": "1:02:11"
+    },
+    {
+      "episode": "EP. 25",
+      "title": "The Real Agenda",
+      "length": "56:09"
+    }
+  ],
+  "ticker": [
+    "Katie Cakes backlash grows after latest livestream",
+    "Chiefs dynasty debate takes over sports feeds",
+    "Hollywood breakup story explodes across social media",
+    "Concert controversy sparks creator responses",
+    "Viral clip passes 10 million views overnight"
+  ],
+  "featured": {
+    "eyebrow": "Featured Story",
+    "title": "The Internet Saw the Moment. Here Is What It Missed.",
+    "summary": "A closer look at the personalities, pressure and fallout behind the conversation everyone is sharing.",
+    "image": "hollywood.jpg",
+    "cta": "Read the Full Story"
+  },
+  "categories": [
+    {
+      "name": "Entertainment",
+      "description": "Celebrity, creators, music and moments driving the conversation.",
+      "icon": "\u2605"
+    },
+    {
+      "name": "Culture",
+      "description": "The internet, trends and social behavior shaping what comes next.",
+      "icon": "\u25ce"
+    },
+    {
+      "name": "Sports",
+      "description": "Big personalities, bigger stakes and the stories beyond the score.",
+      "icon": "\u25c6"
+    },
+    {
+      "name": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "icon": "\u26a1"
+    },
+    {
+      "name": "Interviews",
+      "description": "Direct conversations without the polished talking points.",
+      "icon": "\u25c9"
+    },
+    {
+      "name": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "icon": "\u2726"
+    }
+  ],
+  "spotlight": {
+    "name": "JJ \u2014 The View",
+    "kicker": "Creator Spotlight",
+    "summary": "Daily commentary on entertainment, culture and the angle everyone else overlooked.",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "TikTok Followers"
+      },
+      {
+        "value": "12M+",
+        "label": "Top Video Views"
+      },
+      {
+        "value": "4\u20136",
+        "label": "Daily Uploads"
+      }
+    ]
+  },
+  "breaking": [
+    {
+      "label": "Breaking",
+      "headline": "A viral creator feud is changing by the hour.",
+      "time": "8 min ago"
+    },
+    {
+      "label": "Developing",
+      "headline": "A major entertainment story is pulling millions into the conversation.",
+      "time": "21 min ago"
+    },
+    {
+      "label": "Just Added",
+      "headline": "The latest Slanted View breakdown is now live.",
+      "time": "34 min ago"
+    }
+  ],
+  "featuredVideo": {
+    "title": "The Story Everyone Is Watching \u2014 From the Angle They Missed",
+    "summary": "A full Slanted View breakdown of the personalities, pressure and fallout behind today\u2019s biggest conversation.",
+    "image": "latest-one.jpg",
+    "duration": "14:28",
+    "views": "184K views",
+    "badge": "Featured Video"
+  },
+  "jjPicks": [
+    {
+      "title": "The Internet Is Asking the Wrong Question",
+      "image": "latest-two.jpg",
+      "tag": "JJ\u2019s Pick"
+    },
+    {
+      "title": "Why This Story Is Bigger Than the Clip",
+      "image": "latest-three.jpg",
+      "tag": "JJ\u2019s Pick"
+    },
+    {
+      "title": "The Moment the Narrative Changed",
+      "image": "latest-four.jpg",
+      "tag": "JJ\u2019s Pick"
+    }
+  ],
+  "staffPicks": [
+    {
+      "title": "Celebrity Culture Is Entering a New Era",
+      "image": "hollywood.jpg",
+      "tag": "Staff Pick"
+    },
+    {
+      "title": "Sports Personalities Are Becoming the Story",
+      "image": "chiefs-dynasty.jpg",
+      "tag": "Staff Pick"
+    },
+    {
+      "title": "The Viral Cycle Is Moving Faster Than Ever",
+      "image": "viral-over.jpg",
+      "tag": "Staff Pick"
+    }
+  ],
+  "creators": [
+    {
+      "name": "JJ",
+      "role": "Founder / Host",
+      "focus": "Culture, entertainment and commentary",
+      "initials": "JJ"
+    },
+    {
+      "name": "The View Desk",
+      "role": "Editorial",
+      "focus": "Trending stories and breaking conversations",
+      "initials": "SV"
+    },
+    {
+      "name": "Guest Voices",
+      "role": "Contributors",
+      "focus": "Interviews, reactions and alternate perspectives",
+      "initials": "GV"
+    }
+  ],
+  "moreFeed": [
+    {
+      "title": "What Changed Overnight?",
+      "category": "Trending",
+      "image": "latest-five.jpg",
+      "views": "41K"
+    },
+    {
+      "title": "The Conversation Nobody Expected",
+      "category": "Culture",
+      "image": "influencer-exposed.jpg",
+      "views": "67K"
+    },
+    {
+      "title": "Why Fans Are Divided",
+      "category": "Sports",
+      "image": "chiefs-dynasty.jpg",
+      "views": "52K"
+    },
+    {
+      "title": "The Backlash Is Growing",
+      "category": "Viral",
+      "image": "concert-chaos.jpg",
+      "views": "73K"
+    },
+    {
+      "title": "The Headline Is Only Half the Story",
+      "category": "Entertainment",
+      "image": "hollywood.jpg",
+      "views": "88K"
+    },
+    {
+      "title": "This One Detail Changes Everything",
+      "category": "Commentary",
+      "image": "latest-three.jpg",
+      "views": "61K"
+    }
+  ],
+  "site": {
+    "name": "Slanted View",
+    "tagline": "The View Everyone's Missing.",
+    "description": "Entertainment, culture, sports and viral stories from the angle everyone else missed.",
+    "url": "https://slantedview.com"
+  },
+  "articles": [
+    {
+      "slug": "internet-asking-wrong-question",
+      "title": "The Internet Is Asking the Wrong Question",
+      "category": "Commentary",
+      "dek": "The loudest reaction is rarely the most important part of the story.",
+      "image": "latest-two.jpg",
+      "author": "JJ",
+      "date": "2026-07-16",
+      "readTime": "6 min read"
+    },
+    {
+      "slug": "bigger-than-the-clip",
+      "title": "Why This Story Is Bigger Than the Clip",
+      "category": "Culture",
+      "dek": "A viral moment can hide the pressure, incentives and fallout behind it.",
+      "image": "latest-three.jpg",
+      "author": "Slanted View Desk",
+      "date": "2026-07-16",
+      "readTime": "5 min read"
+    },
+    {
+      "slug": "narrative-changed",
+      "title": "The Moment the Narrative Changed",
+      "category": "Entertainment",
+      "dek": "One detail moved the audience from curiosity to certainty.",
+      "image": "latest-four.jpg",
+      "author": "JJ",
+      "date": "2026-07-15",
+      "readTime": "4 min read"
+    }
+  ],
+  "creatorProfiles": [
+    {
+      "slug": "jj",
+      "name": "JJ",
+      "role": "Founder & Host",
+      "initials": "JJ",
+      "bio": "Raw entertainment and culture commentary from the angle everyone else missed.",
+      "focus": [
+        "Culture",
+        "Entertainment",
+        "Viral Commentary"
+      ],
+      "followers": "100K+",
+      "topViews": "12M+",
+      "cadence": "4\u20136 daily",
+      "image": "sv-eye.png"
+    },
+    {
+      "slug": "view-desk",
+      "name": "The View Desk",
+      "role": "Editorial Desk",
+      "initials": "SV",
+      "bio": "Fast-moving coverage of creators, entertainment, sports personalities and internet culture.",
+      "focus": [
+        "Breaking",
+        "Trending",
+        "Explainers"
+      ],
+      "followers": "Daily",
+      "topViews": "Cross-platform",
+      "cadence": "Always on",
+      "image": "sv-eye.png"
+    },
+    {
+      "slug": "guest-voices",
+      "name": "Guest Voices",
+      "role": "Contributors",
+      "initials": "GV",
+      "bio": "Interviews, reactions and alternate perspectives that widen the view.",
+      "focus": [
+        "Interviews",
+        "Reactions",
+        "Community"
+      ],
+      "followers": "Growing",
+      "topViews": "New voices",
+      "cadence": "Weekly",
+      "image": "sv-eye.png"
+    }
+  ],
+  "topicDirectory": [
+    {
+      "slug": "entertainment",
+      "name": "Entertainment",
+      "description": "Creators, celebrity stories, music and moments driving the conversation.",
+      "count": 18
+    },
+    {
+      "slug": "culture",
+      "name": "Culture",
+      "description": "The internet, social behavior and trends shaping what comes next.",
+      "count": 14
+    },
+    {
+      "slug": "sports",
+      "name": "Sports",
+      "description": "Big personalities, bigger stakes and stories beyond the score.",
+      "count": 11
+    },
+    {
+      "slug": "viral",
+      "name": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "count": 22
+    },
+    {
+      "slug": "interviews",
+      "name": "Interviews",
+      "description": "Direct conversations without polished talking points.",
+      "count": 7
+    },
+    {
+      "slug": "commentary",
+      "name": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "count": 16
+    }
+  ],
+  "searchIndex": [
+    {
+      "type": "trending",
+      "title": "The Truth Behind the Internet\u2019s Sweetheart",
+      "description": "",
+      "image": "influencer-exposed.jpg",
+      "category": "Culture",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "Is the Chiefs Dynasty Finally Over?",
+      "description": "",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sports",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "What Happens When the Internet Moves On?",
+      "description": "",
+      "image": "viral-over.jpg",
+      "category": "Viral",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "Things Got Out of Control Fast",
+      "description": "",
+      "image": "concert-chaos.jpg",
+      "category": "Entertainment",
+      "url": "#"
+    },
+    {
+      "type": "trending",
+      "title": "What Hollywood Doesn\u2019t Want You to See",
+      "description": "",
+      "image": "hollywood.jpg",
+      "category": "Culture",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "They Don\u2019t Want You to Know This",
+      "description": "",
+      "image": "latest-one.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "The Story Was Never That Simple",
+      "description": "",
+      "image": "latest-two.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "Speaking Up Will Get You Hated",
+      "description": "",
+      "image": "latest-three.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "What\u2019s Really Going On?",
+      "description": "",
+      "image": "latest-four.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "latest",
+      "title": "Unfiltered Ep. 27 \u2014 No More Silence",
+      "description": "",
+      "image": "latest-five.jpg",
+      "category": "Latest",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Wake Up",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Real Talk",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "No Filter",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Culture",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "They Missed It",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Viral",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Sports",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "short",
+      "title": "Watch This",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Shorts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "No More Silence",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "Behind the Curtain",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "podcast",
+      "title": "The Real Agenda",
+      "description": "",
+      "image": "sv-eye.png",
+      "category": "Podcasts",
+      "url": "#"
+    },
+    {
+      "type": "article",
+      "title": "The Internet Is Asking the Wrong Question",
+      "description": "The loudest reaction is rarely the most important part of the story.",
+      "image": "latest-two.jpg",
+      "category": "Commentary",
+      "url": "article.html?slug=internet-asking-wrong-question"
+    },
+    {
+      "type": "article",
+      "title": "Why This Story Is Bigger Than the Clip",
+      "description": "A viral moment can hide the pressure, incentives and fallout behind it.",
+      "image": "latest-three.jpg",
+      "category": "Culture",
+      "url": "article.html?slug=bigger-than-the-clip"
+    },
+    {
+      "type": "article",
+      "title": "The Moment the Narrative Changed",
+      "description": "One detail moved the audience from curiosity to certainty.",
+      "image": "latest-four.jpg",
+      "category": "Entertainment",
+      "url": "article.html?slug=narrative-changed"
+    },
+    {
+      "type": "creator",
+      "title": "JJ",
+      "description": "Raw entertainment and culture commentary from the angle everyone else missed.",
+      "image": "sv-eye.png",
+      "category": "Founder & Host",
+      "url": "creator.html?slug=jj"
+    },
+    {
+      "type": "creator",
+      "title": "The View Desk",
+      "description": "Fast-moving coverage of creators, entertainment, sports personalities and internet culture.",
+      "image": "sv-eye.png",
+      "category": "Editorial Desk",
+      "url": "creator.html?slug=view-desk"
+    },
+    {
+      "type": "creator",
+      "title": "Guest Voices",
+      "description": "Interviews, reactions and alternate perspectives that widen the view.",
+      "image": "sv-eye.png",
+      "category": "Contributors",
+      "url": "creator.html?slug=guest-voices"
+    },
+    {
+      "type": "topic",
+      "title": "Entertainment",
+      "description": "Creators, celebrity stories, music and moments driving the conversation.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=entertainment"
+    },
+    {
+      "type": "topic",
+      "title": "Culture",
+      "description": "The internet, social behavior and trends shaping what comes next.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=culture"
+    },
+    {
+      "type": "topic",
+      "title": "Sports",
+      "description": "Big personalities, bigger stakes and stories beyond the score.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=sports"
+    },
+    {
+      "type": "topic",
+      "title": "Viral",
+      "description": "The clips, reactions and questions everyone is sharing.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=viral"
+    },
+    {
+      "type": "topic",
+      "title": "Interviews",
+      "description": "Direct conversations without polished talking points.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=interviews"
+    },
+    {
+      "type": "topic",
+      "title": "Commentary",
+      "description": "Raw perspective from a distinctly Slanted View.",
+      "image": "sv-eye.png",
+      "category": "Topic",
+      "url": "topics.html?topic=commentary"
+    },
+    {
+      "type": "channel",
+      "title": "The Daily View",
+      "description": "Fast commentary on the stories driving the day.",
+      "image": "latest-one.jpg",
+      "category": "Show",
+      "url": "shows.html?show=daily-view"
+    },
+    {
+      "type": "channel",
+      "title": "After Hours",
+      "description": "Longer conversations, reactions and unfiltered takes.",
+      "image": "hero-cinematic.jpg",
+      "category": "Show",
+      "url": "shows.html?show=after-hours"
+    },
+    {
+      "type": "channel",
+      "title": "The Viral File",
+      "description": "A running breakdown of the internet\u2019s biggest moments.",
+      "image": "viral-over.jpg",
+      "category": "Show",
+      "url": "shows.html?show=viral-file"
+    },
+    {
+      "type": "channel",
+      "title": "Sideline View",
+      "description": "Sports personalities, culture and stories beyond the score.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Show",
+      "url": "shows.html?show=sideline-view"
+    },
+    {
+      "type": "episode",
+      "title": "The Internet Lost the Plot Again",
+      "description": "What the loudest reactions missed about today\u2019s biggest creator story.",
+      "image": "latest-one.jpg",
+      "category": "The Daily View",
+      "url": "episode.html?slug=internet-lost-the-plot"
+    },
+    {
+      "type": "episode",
+      "title": "Viral Fame and the Fallout Nobody Plans For",
+      "description": "A longer conversation about sudden attention, pressure and public collapse.",
+      "image": "hero-cinematic.jpg",
+      "category": "After Hours",
+      "url": "episode.html?slug=viral-fame-fallout"
+    },
+    {
+      "type": "episode",
+      "title": "The Clip That Changed Everything",
+      "description": "The timeline, reactions and detail that moved the entire narrative.",
+      "image": "viral-over.jpg",
+      "category": "The Viral File",
+      "url": "episode.html?slug=clip-changed-everything"
+    },
+    {
+      "type": "episode",
+      "title": "The Sports Story Beyond the Score",
+      "description": "Why personality, pressure and audience reaction became bigger than the result.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sideline View",
+      "url": "episode.html?slug=sports-story-beyond-score"
+    },
+    {
+      "type": "video",
+      "title": "The Real Story Everyone Missed",
+      "description": "Commentary video on TikTok.",
+      "image": "latest-one.jpg",
+      "category": "Commentary",
+      "url": "videos.html?video=real-story-everyone-missed"
+    },
+    {
+      "type": "video",
+      "title": "The Clip That Changed the Narrative",
+      "description": "Viral video on YouTube Shorts.",
+      "image": "viral-over.jpg",
+      "category": "Viral",
+      "url": "videos.html?video=clip-changed-narrative"
+    },
+    {
+      "type": "video",
+      "title": "Viral Fame and the Fallout",
+      "description": "Entertainment video on YouTube.",
+      "image": "hero-cinematic.jpg",
+      "category": "Entertainment",
+      "url": "videos.html?video=fame-fallout"
+    },
+    {
+      "type": "video",
+      "title": "The Story Beyond the Score",
+      "description": "Sports video on YouTube.",
+      "image": "chiefs-dynasty.jpg",
+      "category": "Sports",
+      "url": "videos.html?video=sports-beyond-score"
+    }
+  ],
+  "channels": [
+    {
+      "slug": "daily-view",
+      "name": "The Daily View",
+      "description": "Fast commentary on the stories driving the day.",
+      "image": "latest-one.jpg",
+      "cadence": "Daily"
+    },
+    {
+      "slug": "after-hours",
+      "name": "After Hours",
+      "description": "Longer conversations, reactions and unfiltered takes.",
+      "image": "hero-cinematic.jpg",
+      "cadence": "Weekly"
+    },
+    {
+      "slug": "viral-file",
+      "name": "The Viral File",
+      "description": "A running breakdown of the internet\u2019s biggest moments.",
+      "image": "viral-over.jpg",
+      "cadence": "Daily"
+    },
+    {
+      "slug": "sideline-view",
+      "name": "Sideline View",
+      "description": "Sports personalities, culture and stories beyond the score.",
+      "image": "chiefs-dynasty.jpg",
+      "cadence": "Weekly"
+    }
+  ],
+  "episodes": [
+    {
+      "slug": "internet-lost-the-plot",
+      "show": "The Daily View",
+      "title": "The Internet Lost the Plot Again",
+      "description": "What the loudest reactions missed about today\u2019s biggest creator story.",
+      "image": "latest-one.jpg",
+      "duration": "18:42",
+      "date": "2026-07-17",
+      "season": "1",
+      "episode": "12",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "viral-fame-fallout",
+      "show": "After Hours",
+      "title": "Viral Fame and the Fallout Nobody Plans For",
+      "description": "A longer conversation about sudden attention, pressure and public collapse.",
+      "image": "hero-cinematic.jpg",
+      "duration": "42:10",
+      "date": "2026-07-16",
+      "season": "1",
+      "episode": "4",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "clip-changed-everything",
+      "show": "The Viral File",
+      "title": "The Clip That Changed Everything",
+      "description": "The timeline, reactions and detail that moved the entire narrative.",
+      "image": "viral-over.jpg",
+      "duration": "11:08",
+      "date": "2026-07-15",
+      "season": "1",
+      "episode": "9",
+      "audio": "#",
+      "video": "#"
+    },
+    {
+      "slug": "sports-story-beyond-score",
+      "show": "Sideline View",
+      "title": "The Sports Story Beyond the Score",
+      "description": "Why personality, pressure and audience reaction became bigger than the result.",
+      "image": "chiefs-dynasty.jpg",
+      "duration": "26:34",
+      "date": "2026-07-14",
+      "season": "1",
+      "episode": "3",
+      "audio": "#",
+      "video": "#"
+    }
+  ],
+  "newsletter": {
+    "name": "The Slanted Brief",
+    "headline": "The View Before Everyone Else",
+    "description": "A sharp daily email with the biggest entertainment, culture, sports and viral stories worth your attention.",
+    "frequency": "Weekday mornings",
+    "benefits": [
+      "Top stories in under five minutes",
+      "One original Slanted View take",
+      "Links to new videos and episodes",
+      "No filler"
+    ]
+  },
+  "support": {
+    "headline": "Back The View",
+    "description": "Support independent commentary and help Slanted View expand into more original video, interviews and podcasts.",
+    "tiers": [
+      {
+        "name": "Viewer",
+        "price": "$3",
+        "period": "monthly",
+        "benefits": [
+          "Support the platform",
+          "Member badge",
+          "Monthly supporter update"
+        ]
+      },
+      {
+        "name": "Insider",
+        "price": "$8",
+        "period": "monthly",
+        "benefits": [
+          "Everything in Viewer",
+          "Early episode access",
+          "Members-only posts"
+        ]
+      },
+      {
+        "name": "Producer",
+        "price": "$20",
+        "period": "monthly",
+        "benefits": [
+          "Everything in Insider",
+          "Name in supporter credits",
+          "Quarterly live group session"
+        ]
+      }
+    ]
+  },
+  "productionBoard": {
+    "statuses": [
+      "Idea",
+      "Recording",
+      "Editing",
+      "Scheduled",
+      "Published"
+    ],
+    "items": [
+      {
+        "id": "sv-901",
+        "title": "Why Everyone Missed the Real Story",
+        "platform": "TikTok",
+        "status": "Scheduled",
+        "publishAt": "2026-07-18T04:00:00-07:00",
+        "owner": "JJ",
+        "priority": "High"
+      },
+      {
+        "id": "sv-902",
+        "title": "The Clip That Changed the Narrative",
+        "platform": "YouTube Shorts",
+        "status": "Editing",
+        "publishAt": "2026-07-18T07:00:00-07:00",
+        "owner": "JJ",
+        "priority": "High"
+      },
+      {
+        "id": "sv-903",
+        "title": "After Hours: Viral Fame Fallout",
+        "platform": "YouTube",
+        "status": "Recording",
+        "publishAt": "2026-07-19T18:00:00-07:00",
+        "owner": "JJ",
+        "priority": "Medium"
+      }
+    ]
+  },
+  "sponsorPipeline": [
+    {
+      "brand": "Example Entertainment Brand",
+      "stage": "Lead",
+      "value": 2500,
+      "nextAction": "Send media kit"
+    },
+    {
+      "brand": "Example Consumer Brand",
+      "stage": "Proposal",
+      "value": 5000,
+      "nextAction": "Follow up Friday"
+    },
+    {
+      "brand": "Example Streaming Partner",
+      "stage": "Negotiation",
+      "value": 8500,
+      "nextAction": "Finalize usage rights"
+    }
+  ],
+  "launchConfig": {
+    "version": "1.0",
+    "status": "Launch Candidate",
+    "brandName": "Slanted View",
+    "tagline": "The View Everyone's Missing.",
+    "supportingLine": "Entertainment From Every Angle",
+    "primaryDomain": "https://slantedview.com"
+  },
+  "videoLibrary": [
+    {
+      "slug": "real-story-everyone-missed",
+      "title": "The Real Story Everyone Missed",
+      "category": "Commentary",
+      "image": "latest-one.jpg",
+      "duration": "01:14",
+      "platform": "TikTok",
+      "views": "1.8M"
+    },
+    {
+      "slug": "clip-changed-narrative",
+      "title": "The Clip That Changed the Narrative",
+      "category": "Viral",
+      "image": "viral-over.jpg",
+      "duration": "00:58",
+      "platform": "YouTube Shorts",
+      "views": "742K"
+    },
+    {
+      "slug": "fame-fallout",
+      "title": "Viral Fame and the Fallout",
+      "category": "Entertainment",
+      "image": "hero-cinematic.jpg",
+      "duration": "18:42",
+      "platform": "YouTube",
+      "views": "128K"
+    },
+    {
+      "slug": "sports-beyond-score",
+      "title": "The Story Beyond the Score",
+      "category": "Sports",
+      "image": "chiefs-dynasty.jpg",
+      "duration": "04:26",
+      "platform": "YouTube",
+      "views": "96K"
+    }
+  ],
+  "launchChecklist": [
+    {
+      "area": "Brand",
+      "item": "Logo, favicon and social assets installed",
+      "status": "complete"
+    },
+    {
+      "area": "Content",
+      "item": "Homepage, articles, shows and video library connected",
+      "status": "complete"
+    },
+    {
+      "area": "SEO",
+      "item": "Metadata, sitemap and robots file configured",
+      "status": "complete"
+    },
+    {
+      "area": "Legal",
+      "item": "Privacy, terms and DMCA pages published",
+      "status": "complete"
+    },
+    {
+      "area": "Revenue",
+      "item": "Media kit, support and sponsor workflow available",
+      "status": "complete"
+    },
+    {
+      "area": "Operations",
+      "item": "Publishing workspace and dashboard available",
+      "status": "complete"
+    },
+    {
+      "area": "Integrations",
+      "item": "Newsletter, payments and analytics connected",
+      "status": "pending"
+    },
+    {
+      "area": "Quality",
+      "item": "Final mobile, accessibility and cross-browser review",
+      "status": "pending"
+    }
+  ],
+  "siteHealth": {
+    "labels": [
+      {
+        "name": "Performance",
+        "score": 91
+      },
+      {
+        "name": "Accessibility",
+        "score": 94
+      },
+      {
+        "name": "SEO",
+        "score": 96
+      },
+      {
+        "name": "Best Practices",
+        "score": 89
+      }
+    ]
+  },
+  "creatorOS": {
+    "version": "0.1",
+    "mode": "Frontend Prototype",
+    "user": {
+      "name": "JJ",
+      "role": "Founder / Publisher",
+      "avatar": "sv-eye.png"
+    },
+    "metrics": {
+      "totalViews": 14300000,
+      "followers": 100000,
+      "published": 184,
+      "scheduled": 12,
+      "sponsorPipeline": 28500
+    },
+    "workflow": [
+      {
+        "id": "idea",
+        "label": "Ideas",
+        "count": 9
+      },
+      {
+        "id": "recording",
+        "label": "Recording",
+        "count": 4
+      },
+      {
+        "id": "editing",
+        "label": "Editing",
+        "count": 6
+      },
+      {
+        "id": "scheduled",
+        "label": "Scheduled",
+        "count": 12
+      },
+      {
+        "id": "published",
+        "label": "Published",
+        "count": 184
+      }
+    ],
+    "drafts": [
+      {
+        "id": "draft-001",
+        "title": "The View Everyone Missed This Week",
+        "type": "YouTube Commentary",
+        "status": "Editing",
+        "updated": "Today, 9:42 AM",
+        "owner": "JJ"
+      },
+      {
+        "id": "draft-002",
+        "title": "Why This Viral Clip Is Not What It Looks Like",
+        "type": "TikTok",
+        "status": "Scheduled",
+        "updated": "Today, 8:10 AM",
+        "owner": "JJ"
+      },
+      {
+        "id": "draft-003",
+        "title": "Slanted View Live: Friday Breakdown",
+        "type": "Live",
+        "status": "Recording",
+        "updated": "Yesterday",
+        "owner": "JJ"
+      }
+    ],
+    "sponsors": [
+      {
+        "brand": "Purple Wave Media",
+        "stage": "Proposal",
+        "value": 7500,
+        "contact": "Taylor Reed"
+      },
+      {
+        "brand": "StreamGear",
+        "stage": "Qualified",
+        "value": 4500,
+        "contact": "Morgan Lee"
+      },
+      {
+        "brand": "Night Owl Coffee",
+        "stage": "Negotiation",
+        "value": 12000,
+        "contact": "Alex Rivera"
+      },
+      {
+        "brand": "CreatorDesk",
+        "stage": "Lead",
+        "value": 4500,
+        "contact": "Jordan Blake"
+      }
+    ],
+    "analytics": [
+      {
+        "label": "7-day views",
+        "value": "2.4M",
+        "change": "+18%"
+      },
+      {
+        "label": "Watch time",
+        "value": "91.2K hrs",
+        "change": "+11%"
+      },
+      {
+        "label": "Engagement",
+        "value": "8.7%",
+        "change": "+1.4%"
+      },
+      {
+        "label": "Estimated revenue",
+        "value": "$6,840",
+        "change": "+22%"
+      }
+    ]
+  }
+}

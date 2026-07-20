@@ -2,90 +2,317 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Slanted View | Entertainment From Every Angle</title>
-  <meta name="description" content="Slanted View covers entertainment, commentary, and culture from every angle.">
-  <meta name="theme-color" content="#0A0A0A">
-  <meta property="og:title" content="Slanted View Entertainment">
-  <meta property="og:description" content="Entertainment, commentary, and culture—from every angle.">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#050507">
+  <meta name="description" content="Slanted View Media — the view everyone’s missing. Entertainment from every angle.">
+  <meta property="og:title" content="Slanted View Media">
+  <meta property="og:description" content="The view everyone’s missing. Entertainment from every angle.">
   <meta property="og:type" content="website">
-  <link rel="icon" href="assets/logos/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800;900&family=Raleway:wght@700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="css/animations.css">
+  <meta property="og:url" content="https://slantedview.com/">
+  <meta property="og:image" content="https://slantedview.com/sv-eye.png">
+  <title>Slanted View Media</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="sv-eye.png">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="packet3.css">
+  <link rel="stylesheet" href="packet4.css">
+  <link rel="stylesheet" href="packet5.css">
+  <link rel="stylesheet" href="packet6.css">
+  <link rel="stylesheet" href="packet7.css">
+  <link rel="stylesheet" href="packet8.css">
+<link rel="stylesheet" href="packet9.css">  <link rel="stylesheet" href="packet10.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<div class="site-bg"></div>
-<header class="header">
-  <nav class="nav wrap" aria-label="Main navigation">
-    <a class="brand" href="index.html"><img src="assets/logos/slanted-eye.svg" alt="Slanted View logo"><span><span class="brand-text">SLANTED VIEW</span><span class="tag">ENTERTAINMENT FROM EVERY ANGLE</span></span></a>
-    <button class="hamb" aria-label="Toggle menu">☰</button>
-    <div class="menu"><a class="active" href="index.html">Home</a><a href="about.html">About</a><a href="podcast.html">Podcast</a><a href="advertise.html">Advertise</a><a href="contact.html">Contact</a><a href="newsletter.html">Newsletter</a></div>
-    <div class="social" aria-label="Social links"><span>▶</span><span>♪</span><span>◎</span><span>𝕏</span></div>
-  </nav>
-</header>
-<main id="main">
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <h1>Raw.<br>Uncensored.<br><span>Entertainment.</span></h1>
-        <p class="hero-lede">Straight talk. No filters.<br>Just the <span class="purple">Slanted View.</span></p>
-        <p class="hero-body">We cover what’s trending, what’s breaking, and what’s being ignored by the mainstream.</p>
-        <div class="cta-row"><a class="btn btn-primary" href="https://www.youtube.com/" target="_blank" rel="noopener">▶ Watch on YouTube</a><a class="btn btn-secondary" href="https://www.tiktok.com/" target="_blank" rel="noopener">♪ Follow on TikTok</a></div>
-        <p class="brand-line">Entertainment, commentary, and culture—from every angle.</p>
-      </div>
-      <div class="hero-art" aria-hidden="true"><img class="sv-hero" src="assets/logos/slanted-eye.svg" alt=""><div class="mic"></div><div class="hero-glow"></div></div>
+  <div class="site-loader" data-loader aria-hidden="true">
+    <img src="sv-eye.png" alt="">
+    <span>Slanted View</span>
+  </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <a class="brand-lockup" href="/" aria-label="Slanted View home">
+      <img src="sv-eye.png" alt="" class="brand-eye">
+      <span class="brand-wordmark"><strong>SLANTED VIEW</strong><small>MEDIA</small></span>
+    </a>
+
+    <button class="menu-button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Primary navigation" data-nav>
+      <a class="active" href="/">Home</a>
+      <a href="#trending">Trending</a>
+      <a href="#watch">Watch</a>
+      <a href="#podcast">Podcast</a>
+      <a href="#topics">Topics</a>
+      <a href="#media">Media</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" aria-label="Search" data-search-open>⌕</button>
+      <a class="button button-outline button-small" href="#join">Subscribe</a>
     </div>
+  </header>
+
+  <section class="breaking-rail" aria-label="Breaking updates">
+    <div class="breaking-badge">Breaking</div>
+    <div class="breaking-copy"><strong data-breaking-headline>Loading the latest Slanted View update…</strong><span data-breaking-time></span></div>
+    <div class="breaking-controls"><button type="button" aria-label="Previous update" data-breaking-prev>‹</button><button type="button" aria-label="Next update" data-breaking-next>›</button></div>
   </section>
-  <section class="wrap stats" aria-label="Slanted View metrics">
-    <div class="stat"><div class="stat-icon">◉</div><div><strong>12M+</strong><span>Monthly views</span></div></div>
-    <div class="stat"><div class="stat-icon">●●●</div><div><strong>100K+</strong><span>Followers</span></div></div>
-    <div class="stat"><div class="stat-icon">◎</div><div><strong>Global</strong><span>Audience</span></div></div>
-    <div class="stat"><div class="stat-icon">ϟ</div><div><strong>Real</strong><span>Conversations</span></div></div>
-  </section>
-  <section class="wrap">
-    <div class="section-head"><h2 class="section-title">Featured <span>Story</span></h2><a class="view-all" href="#">View all →</a></div>
-    <div class="featured-grid">
-      <article class="feature-card">
-        <div class="feature-img"><span class="badge">Featured</span><span class="play">▶</span><span class="duration">08:24</span></div>
-        <div class="feature-copy"><h2>Adri Sigler Civil Rights Case Explained</h2><div class="accent-line"></div><p>Breaking down the case, the impact, and what mainstream media won’t tell you.</p><a class="btn btn-secondary" href="#">Watch Now →</a></div>
-      </article>
-      <div>
-        <div class="section-head" style="margin-top:0"><h2 class="section-title">More from <span>The View</span></h2></div>
-        <div class="story-list">
-          <article class="story"><div class="thumb"><span class="mini-badge">New</span></div><h3>Ash Treviño: The Internet Can’t Look Away</h3><time>06:33</time></article>
-          <article class="story"><div class="thumb"><span class="mini-badge">New</span></div><h3>Katie Cakes & the Internet Meltdown</h3><time>07:31</time></article>
-          <article class="story"><div class="thumb"><span class="mini-badge">New</span></div><h3>When Influencers Crash Out</h3><time>07:11</time></article>
-          <article class="story"><div class="thumb"><span class="mini-badge">New</span></div><h3>NASCAR Ad: The Perfect Advertisement?</h3><time>08:12</time></article>
-          <article class="story"><div class="thumb"><span class="mini-badge">New</span></div><h3>Your Lifestyle Isn’t Life Styling</h3><time>00:59</time></article>
+
+  <aside class="social-rail" aria-label="Social platforms"><a href="#" aria-label="TikTok">♪</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="X">𝕏</a><a href="#" aria-label="Facebook">f</a><span>Follow the movement</span></aside>
+
+  <div class="utility-bar"><div class="utility-links"><a href="creators.html">Creators</a><a href="topics.html">Topic Directory</a><a href="shows.html">Shows</a><a href="videos.html">Videos</a><a href="newsletter.html">Newsletter</a><a href="media-kit.html">Media Kit</a><a href="support.html">Support</a></div><div class="utility-actions"><button type="button" data-open-saved>Saved <span class="saved-count" data-saved-count>0</span></button></div></div>
+<div class="launch-banner"><div><strong>Slanted View Version 1.0</strong><br><span>Public website launch candidate</span></div><a class="launch-badge" href="launch-center.html">Open Launch Center</a></div>
+<main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-cinematic-bg" aria-hidden="true"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-beam hero-beam-left" aria-hidden="true"></div>
+      <div class="hero-beam hero-beam-right" aria-hidden="true"></div>
+      <div class="hero-particles" data-particles aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <img class="hero-eye" src="sv-eye.png" alt="Slanted View eye logo">
+        <p class="eyebrow hero-eyebrow">Entertainment From Every Angle</p>
+        <h1 id="hero-title">
+          <span>The View</span>
+          <strong>Everyone’s Missing.</strong>
+        </h1>
+        <p class="hero-description">Viral moments. Raw takes. Real talk.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#watch"><span>▶</span> Watch Now</a>
+          <a class="button button-glass" href="#trending">Explore Content</a>
         </div>
       </div>
+
+      <div class="hero-reflection" aria-hidden="true"></div>
+      <div class="hero-edge-copy hero-edge-left">Real talk. No filter.</div>
+      <div class="hero-edge-copy hero-edge-right">Entertainment from every angle.</div>
+      <a class="scroll-cue" href="#topics" aria-label="Scroll to trending topics"><span></span></a>
+    </section>
+
+    <section id="topics" class="topic-strip" aria-label="Trending topics">
+      <div class="section-shell topic-strip-inner">
+        <strong class="topic-heading">⚡ Trending Topics</strong>
+        <div class="topic-list" data-topic-list></div>
+        <a href="#trending" class="view-all">View all →</a>
+      </div>
+    </section>
+
+    <section class="live-ticker" aria-label="Live trending updates">
+      <div class="ticker-label">Live</div>
+      <div class="ticker-window">
+        <div class="ticker-track" data-ticker-track></div>
+      </div>
+    </section>
+
+    <section class="discovery-section section-shell reveal" id="discover"><div class="discovery-header"><div><span class="eyebrow">Discover Slanted View</span><h2>Find The Angle</h2></div><p>Search videos, original stories, creators and topics from one place.</p></div><div class="discovery-grid"><div><div class="discovery-search"><span>⌕</span><input type="search" data-discovery-input placeholder="Search Slanted View…"><button type="button">Search</button></div><div class="packet6-results" data-packet6-results></div></div><div class="discovery-trends"><strong>Trending Searches</strong><div class="trend-query-list"><button data-trend-query="viral">Viral</button><button data-trend-query="culture">Culture</button><button data-trend-query="sports">Sports</button><button data-trend-query="JJ">JJ</button></div></div></div></section>
+<section id="trending" class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Trending Now</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="media-carousel" data-carousel="trending"></div>
+    </section>
+
+    <section class="featured-story section-shell reveal" data-featured-story>
+      <div class="featured-copy">
+        <span class="eyebrow" data-featured-kicker></span>
+        <h2 data-featured-title></h2>
+        <p data-featured-summary></p>
+        <a class="button button-primary button-small" href="#" data-featured-cta></a>
+      </div>
+      <div class="featured-art">
+        <img data-featured-image alt="">
+        <span class="featured-shade"></span>
+      </div>
+    </section>
+
+    <section class="featured-video section-shell reveal" data-featured-video>
+      <div class="featured-video-art"><img data-featured-video-image alt=""><button class="featured-play" type="button" data-featured-video-play aria-label="Play featured video">▶</button><span class="featured-video-duration" data-featured-video-duration></span></div>
+      <div class="featured-video-copy"><span class="eyebrow" data-featured-video-badge></span><h2 data-featured-video-title></h2><p data-featured-video-summary></p><div class="featured-video-meta" data-featured-video-views></div><button class="button button-primary" type="button" data-featured-video-play>Watch Featured</button></div>
+    </section>
+
+    <section id="watch" class="media-section section-shell reveal">
+      <div class="section-title-row"><h2>Latest Videos</h2><a href="#" class="view-all">View all →</a></div>
+      <div class="content-toolbar"><div class="filter-group" data-filter-group><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="culture">Culture</button><button class="filter-button" data-filter="sports">Sports</button><button class="filter-button" data-filter="viral">Viral</button><button class="filter-button" data-filter="entertainment">Entertainment</button></div><label class="inline-search"><span class="sr-only">Filter videos</span><input type="search" placeholder="Filter this feed…" data-feed-search></label></div>
+      <div class="video-grid" data-grid="latest"></div>
+    </section>
+
+    <section class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Shorts Feed</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="shorts-row" data-grid="shorts"></div>
+    </section>
+
+    <section id="podcast" class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Podcast — The View</h2>
+        <a href="#" class="view-all">View all →</a>
+      </div>
+      <div class="podcast-layout">
+        <article class="podcast-feature">
+          <img src="sv-eye.png" alt="">
+          <div>
+            <span>The View</span>
+            <strong>Podcast</strong>
+          </div>
+        </article>
+        <div class="podcast-list" data-grid="podcasts"></div>
+      </div>
+    </section>
+
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>JJ’s Picks</h2><a href="#watch" class="view-all">View all →</a></div><div class="editorial-grid" data-jj-picks></div></section>
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>Staff Picks</h2><a href="#watch" class="view-all">View all →</a></div><div class="editorial-grid" data-staff-picks></div></section>
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>Voices From The View</h2><a href="#about" class="view-all">Meet the team →</a></div><div class="creator-grid" data-creator-grid></div></section>
+
+    <section class="media-section section-shell reveal">
+      <div class="section-title-row">
+        <h2>Explore the View</h2>
+        <a href="#topics" class="view-all">All topics →</a>
+      </div>
+      <div class="category-grid" data-category-grid></div>
+    </section>
+
+    <section class="media-section section-shell reveal"><div class="section-title-row"><h2>More From Slanted View</h2><span class="view-all">Updated daily</span></div><div class="more-feed" data-more-feed></div><div class="load-more-wrap"><button class="button button-glass" type="button" data-load-more>Load More</button></div></section>
+
+    <section id="about" class="growth-section section-shell reveal">
+      <article class="creator-panel">
+        <span class="eyebrow">Creator Spotlight</span>
+        <h2>JJ — The View</h2>
+        <p>Raw commentary, culture and entertainment—with the angle everyone else missed.</p>
+        <a class="button button-primary button-small" href="#media">Read the Story</a>
+      </article>
+
+      <article id="join" class="join-panel">
+        <h2>Join the Movement</h2>
+        <p>Real people. Real conversations. New content every day.</p>
+        <form class="join-form" data-join-form>
+          <label class="sr-only" for="join-email">Email address</label>
+          <input id="join-email" name="email" type="email" placeholder="Enter your email" required>
+          <button class="button button-primary button-small" type="submit">Join Now</button>
+        </form>
+        <p class="form-status" role="status" data-form-status></p>
+      </article>
+
+      <div class="metric-panel"><strong>100K+</strong><span>Followers</span></div>
+      <div class="metric-panel"><strong>12M+</strong><span>Total Views</span></div>
+      <div class="metric-panel"><strong>4–6</strong><span>Videos Daily</span></div>
+    </section>
+  
+    <section class="article-hub section-shell reveal" id="stories">
+      <div class="article-hub-header">
+        <div>
+          <span class="eyebrow">Original Stories</span>
+          <h2>Read The View</h2>
+        </div>
+        <p>Longer breakdowns, original commentary and the context hidden behind the headline.</p>
+      </div>
+      <div class="article-grid" data-article-grid></div>
+    </section>
+
+    <section class="performance-status section-shell" aria-label="Site experience">
+      <div class="performance-metric"><strong>Fast</strong><span>Lazy-loaded media</span></div>
+      <div class="performance-metric"><strong>Accessible</strong><span>Keyboard and contrast tools</span></div>
+      <div class="performance-metric"><strong>Search Ready</strong><span>Structured metadata</span></div>
+      <div class="performance-metric"><strong data-local-pageviews>1</strong><span>Your local page visits</span></div>
+    </section>
+
+  
+    <section class="show-strip section-shell reveal" id="shows">
+      <div class="section-title-row"><h2>Slanted View Shows</h2><a class="view-all" href="shows.html">All shows →</a></div>
+      <div class="show-grid" data-show-grid></div>
+    </section>
+
+    <section class="media-section section-shell reveal">
+      <div class="section-title-row"><h2>Latest Episodes</h2><a class="view-all" href="shows.html">Browse episodes →</a></div>
+      <div class="episode-grid" data-episode-grid></div>
+    </section>
+
+    <section class="newsletter-panel section-shell reveal">
+      <div class="newsletter-copy">
+        <span class="eyebrow">The Slanted Brief</span>
+        <h2>The View Before Everyone Else</h2>
+        <p>A sharp weekday email with the biggest entertainment, culture, sports and viral stories worth your attention.</p>
+        <ul class="newsletter-benefits"><li>Top stories in under five minutes</li><li>One original Slanted View take</li><li>New videos and episodes</li><li>No filler</li></ul>
+      </div>
+      <form class="newsletter-form" data-newsletter-form>
+        <label for="packet7-email">Email address</label>
+        <input id="packet7-email" name="email" type="email" required placeholder="you@example.com">
+        <button class="button button-primary" type="submit">Join The Brief</button>
+        <p class="newsletter-status" data-newsletter-status></p>
+      </form>
+    </section>
+
+    <section class="support-section section-shell reveal">
+      <div class="section-title-row"><h2>Back The View</h2><span class="view-all">Independent entertainment media</span></div>
+      <div class="support-grid" data-support-grid></div>
+    </section>
+
+  <section class="video-library reveal"><div class="section-title-row"><h2>Watch Slanted View</h2><a class="view-all" href="videos.html">Full library →</a></div><div class="video-filter" data-video-filters></div><div class="video-grid" data-video-library></div></section></main>
+
+  <footer id="media" class="site-footer">
+    <div class="section-shell footer-grid">
+      <div class="footer-brand">
+        <img src="sv-eye.png" alt="">
+        <strong>SLANTED VIEW MEDIA</strong>
+        <p>Entertainment from every angle.</p>
+      </div>
+      <div><h3>Explore</h3><a href="#trending">Trending</a><a href="#watch">Watch</a><a href="#podcast">Podcast</a><a href="#topics">Topics</a></div>
+      <div><h3>Company</h3><a href="#about">About</a><a href="#media">Media</a><a href="mailto:business@slantedview.com">Contact</a></div>
+      <div><h3>Legal</h3><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="dmca.html">DMCA</a></div>
+      <div class="footer-cta"><h3>Business & Media Inquiries</h3><p>Partnerships, sponsorships and press.</p><a class="button button-outline button-small" href="mailto:business@slantedview.com">Contact Us</a></div>
     </div>
-  </section>
-  <section class="wrap pillars">
-    <article class="pillar"><div class="pillar-icon">▻</div><h3>Raw & Real <span class="purple">Content</span></h3><p>Unfiltered takes on what’s happening right now.</p><a class="text-link" href="about.html">Learn more →</a></article>
-    <article class="pillar"><div class="pillar-icon">🤝</div><h3>Advertise <span class="purple">With Us</span></h3><p>Your brand in the right place. Real people. Real engagement.</p><a class="text-link" href="advertise.html">Learn more →</a></article>
-    <article class="pillar"><div class="pillar-icon">🎙</div><h3>The Slanted View <span class="purple">Podcast</span></h3><p>Long form conversations. No limits. No scripts. Just real talk.</p><a class="text-link" href="podcast.html">Listen now →</a></article>
-    <article class="pillar"><div class="pillar-icon">●●●</div><h3>Creator <span class="purple">Friendly</span></h3><p>We support creators, not cancel culture. We build with our community.</p><a class="text-link" href="contact.html">Learn more →</a></article>
-  </section>
-  <section class="wrap newsletter-box">
-    <div class="mail-icon">✉</div><div><h2>Join <span class="purple">The View</span></h2><p>Be first to breaking stories, behind-the-scenes content, and exclusive releases.</p></div>
-    <form class="email-form"><input type="email" placeholder="Enter your email" aria-label="Email address"><button type="submit">Subscribe</button><p class="form-note">No spam. Unsubscribe anytime.</p></form>
-  </section>
-</main>
-<footer class="footer wrap">
-  <div class="footer-grid">
-    <div class="footer-brand"><img src="assets/logos/slanted-eye.svg" alt="Slanted View"><span class="brand-text">SLANTED VIEW</span><span class="tag">ENTERTAINMENT FROM EVERY ANGLE</span></div>
-    <div><a href="about.html">About</a><a href="podcast.html">Podcast</a><a href="advertise.html">Advertise</a><a href="contact.html">Contact</a><a href="newsletter.html">Newsletter</a></div>
-    <div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a><a href="404.html">Disclaimer</a></div>
-    <div><h3 class="section-title" style="font-size:16px">Follow <span>The View</span></h3><div class="social" style="display:flex">▶ ♪ ◎ 𝕏</div></div>
-    <p class="copyright">© 2026 Slanted View Entertainment. All Rights Reserved.</p>
+    <div class="copyright">© 2026 Slanted View Media. All rights reserved.</div>
+  <div style="text-align:center;padding:18px"><a href="login.html" style="color:#9b8fa0;font-size:.7rem">Creator Login</a></div></footer>
+
+  <aside class="saved-drawer" data-saved-drawer><div class="saved-drawer-header"><h2>Saved View</h2><button data-close-saved>×</button></div><div class="saved-list" data-saved-list></div></aside>
+<dialog class="video-dialog" data-video-dialog>
+    <button class="video-dialog-close" aria-label="Close video" data-video-close>×</button>
+    <div class="video-stage">
+      <div class="video-placeholder">
+        <img src="sv-eye.png" alt="">
+        <span>Video preview</span>
+        <strong data-video-title>Slanted View</strong>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="search-dialog" data-search-dialog>
+    <form method="dialog" class="search-box">
+      <button class="dialog-close" aria-label="Close search">×</button>
+      <label for="site-search">Search Slanted View</label>
+      <input id="site-search" type="search" placeholder="Search topics, videos and stories…" autofocus>
+      <div class="search-results" data-search-results></div>
+    </form>
+  </dialog>
+
+  <script src="content.js" defer></script>
+  <script src="carousel.js" defer></script>
+  <script src="hero.js" defer></script>
+  <script src="packet3.js" defer></script>
+  <script src="packet4.js" defer></script>
+  <script src="app.js" defer></script>
+
+  <div class="a11y-toolbar" data-a11y-toolbar aria-label="Accessibility controls">
+    <button type="button" data-toggle-motion title="Reduce motion">M</button>
+    <button type="button" data-toggle-contrast title="High contrast">C</button>
+    <button type="button" data-font-up title="Increase text size">A+</button>
   </div>
-</footer>
-<script src="js/app.js"></script>
-</body>
+  <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+  <script src="packet5.js" defer></script>
+<script src="packet6.js" defer></script>
+  <script src="packet7.js" defer></script>
+  <script src="packet8.js" defer></script>
+<a href="workspace.html" style="position:fixed;left:14px;bottom:14px;z-index:120">Workspace</a>  <script src="packet10.js" defer></script>
+<nav class="mobile-bottom-nav"><a href="index.html">Home</a><a href="videos.html">Videos</a><a href="shows.html">Shows</a><a href="workspace.html">Workspace</a></nav></body>
 </html>

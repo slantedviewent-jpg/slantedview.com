@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Slanted View Article</title>
+  <meta name="description" content="Slanted View commentary and entertainment coverage.">
+  <link rel="icon" href="sv-eye.png">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="components.css">
+  <link rel="stylesheet" href="responsive.css">
+  <style>
+    body{background:#050506;color:#fff}.article-shell{width:min(900px,92vw);margin:auto;padding:30px 0 80px}
+    .article-nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.article-nav img{width:120px}
+    .article-hero img{width:100%;max-height:520px;object-fit:cover;border:1px solid #35243e}
+    .article-kicker{display:block;color:#c044ff;text-transform:uppercase;font-weight:900;letter-spacing:.1em;margin-top:30px}
+    h1{font-size:clamp(2.5rem,7vw,6rem);line-height:.92;text-transform:uppercase;margin:12px 0 18px}
+    .article-dek{font-size:1.15rem;color:#bdb4c2;max-width:60ch}.article-meta{display:flex;gap:16px;color:#998fa0;font-size:.8rem;margin:18px 0 28px}
+    .article-body{font-size:1.05rem;line-height:1.8;color:#ddd5e1}.article-body p{margin:0 0 1.4em}
+    .article-callout{padding:22px;border-left:4px solid #b52cff;background:#100b14;margin:28px 0;font-size:1.2rem;font-weight:800}
+    a{color:#d35cff}
+  </style>
+</head>
+<body>
+  <main class="article-shell">
+    <nav class="article-nav"><a href="index.html"><img src="sv-eye.png" alt="Slanted View"></a><a href="index.html">← Back home</a></nav>
+    <article>
+      <div class="article-hero"><img data-article-image src="hero-cinematic.jpg" alt=""></div>
+      <span class="article-kicker" data-article-category>Commentary</span>
+      <h1 data-article-title>The View Everyone’s Missing</h1>
+      <p class="article-dek" data-article-dek></p>
+      <div class="article-meta"><span data-article-author></span><span data-article-date></span><span data-article-readtime></span></div>
+      <div class="article-body">
+        <p>The biggest stories online rarely begin and end with the clip everyone is sharing. The visible moment is only the surface.</p>
+        <p>Slanted View looks at the personalities, incentives and pressure surrounding the headline. That is where the real story usually lives.</p>
+        <div class="article-callout">The loudest reaction is not always the most revealing one.</div>
+        <p>This article template is ready for original reporting, commentary, embedded video and future advertising placements. Update the story data inside <code>content.json</code> or connect it to a CMS in a later release.</p>
+      </div>
+    </article>
+  </main>
+  <script>
+    (async()=>{
+      const params=new URLSearchParams(location.search);
+      const slug=params.get('slug');
+      const data=await fetch('content.json').then(r=>r.json());
+      const article=(data.articles||[]).find(a=>a.slug===slug)||data.articles?.[0];
+      if(!article)return;
+      document.title=`${article.title} | Slanted View`;
+      document.querySelector('[data-article-title]').textContent=article.title;
+      document.querySelector('[data-article-category]').textContent=article.category;
+      document.querySelector('[data-article-dek]').textContent=article.dek;
+      document.querySelector('[data-article-author]').textContent=`By ${article.author}`;
+      document.querySelector('[data-article-date]').textContent=article.date;
+      document.querySelector('[data-article-readtime]').textContent=article.readTime;
+      document.querySelector('[data-article-image]').src=article.image;
+    })();
+  </script>
+</body>
+</html>
